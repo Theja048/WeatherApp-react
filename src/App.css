@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weatherBg{
+  background: url("https://th.bing.com/th/id/R.e4612d4f837bd43e3dc80297542a08bf?rik=%2fwLXO5Ql%2bLqVpg&riu=http%3a%2f%2fcuteanddelicious.com%2fwordpress%2fwp-content%2fuploads%2f2012%2f07%2fstorm-199.jpg&ehk=NrtxxJRjiDFUnELFOkclkzkG2hPvT4nOyowdu0bm1Lw%3d&risl=&pid=ImgRaw&r=0");
+  height: 65vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  
 
-.App-link {
-  color: #61dafb;
 }
+.heading{
+  color: azure;
+  font-weight: 600;
+}
+.weatherResultBox{
+  margin: auto;
+  width: 450px;
+  height: 400px;
+}
+.Icon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.weatherCity{
+  font-size: 35px;
+}
+.weatherTemperature{
+   font-size: 41px;
+   font-weight: 700;
 }
